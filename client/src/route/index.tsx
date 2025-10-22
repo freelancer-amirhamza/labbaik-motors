@@ -2,29 +2,23 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Home from "../pages/Home";
 import SearchPage from "../pages/SearchPage";
-import Login from "../pages/Login.jsx";
-import Register from "../pages/Register.jsx";
-import ForgotPassword from "../pages/ForgotPassword.jsx";
-import VerifyOtp from "../pages/VerifyOtp.jsx";
-import ResetPassword from "../pages/ResetPassword.jsx";
-import UserMenuMobile from "../pages/UserMenuMobile.jsx";
-import Dashboard from "../layout/Dashboard.jsx";
-import Profile from "../pages/Profile.jsx";
-import MyOrders from "../pages/MyOrders.jsx";
-import Address from "../pages/Address.jsx";
-import CategoryPage from "../pages/CategoryPage.jsx";
-import SubCategoryPage from "../pages/SubCategoryPage.jsx";
-import UploadProduct from "../pages/UploadProduct.jsx";
-import AdminProducts from "../pages/AdminProducts.jsx";
-import AdminPermission from "../pages/AdminPermission.jsx";
-import ProductListPage from "../pages/ProductListPage.jsx";
-import ProductDetailsPage from "../components/ProductDetailsPage.jsx";
-import MobileCartMenu from "../pages/MobileCartMenu.jsx";
-import CheckoutPage from "../pages/CheckoutPage.jsx";
-import Success from "../pages/Success.jsx";
-import Cancel from "../pages/Cancel.jsx";
-import AdminOrders from "../pages/AdminOrders.jsx";
-import Failed from "../pages/Failed.jsx";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
+import ForgotPassword from "../pages/ForgotPassword";
+import VerifyOtp from "../components/VerifyOtp";
+import ResetPassword from "../pages/ResetPassword";
+import UserMenuMobile from "../pages/UserMenuMobile";
+import Dashboard from "../layout/Dashboard";
+import Profile from "../pages/Profile";
+import MyOrders from "../pages/MyOrders";
+import Address from "../pages/Address";
+import AdminPermission from "../pages/AdminPermission";
+import CategoryPage from "../pages/CategoryPage";
+import SubCategoryPage from "../pages/SubCategoryPage";
+import AdminProducts from "../pages/AdminProducts";
+import UploadProduct from "../pages/UploadProduct";
+import AdminOrders from "../pages/AdminOrders";
+
 
 const router = createBrowserRouter([
   {
