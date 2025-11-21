@@ -13,6 +13,8 @@ import Axios from './utils/Axios';
 import GlobalProvider from './provider/GlobalProvider';
 import MobileCart from './components/MobileCart';
 import { FaArrowUp } from 'react-icons/fa'; // Import an icon for the button
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
   const dispatch = useDispatch();

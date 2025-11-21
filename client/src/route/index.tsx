@@ -24,111 +24,111 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [
-      {
-        path: "",
-        element: <Home />,
-      },
-      {
-        path: "search",
-        element: <SearchPage />,
-      },
-      {
-        path: "login",
-        element: <Login />,
-      },
-      {
-        path: "register",
-        element: <Register />,
-      },
-      {
-        path: "forgot-password",
-        element: <ForgotPassword/>
-      },
-      {
-        path: "verify-otp",
-        element: <VerifyOtp/>
-      },
-      {
-        path: "reset-password",
-        element: <ResetPassword/>
-      },
-      {
-        path: "user",
-        element: <UserMenuMobile />,
-      },
-      {
-        path: "dashboard",
-        element: <Dashboard />,
-        children: [
-          {
-            path: "profile",
-            element: <Profile />,
-          },
-          {
-            path: "my-orders",
-            element: <MyOrders/>,
-          },
-          {
-            path: "address",
-            element: <Address/>,
-          },
-          {
-            path: "category",
-            element: <AdminPermission ><CategoryPage/> </AdminPermission> ,
-          },
-          {
-            path: "sub-category",
-            element: <AdminPermission>  <SubCategoryPage/></AdminPermission>,
-          },
-          {
-            path: "admin-products",
-            element: <AdminPermission><AdminProducts/></AdminPermission>,
-          },
-          {
-            path: "upload-product",
-            element: <AdminPermission><UploadProduct/></AdminPermission>,
-          },
-          {
-            path: "admin-orders",
-            element: <AdminPermission><AdminOrders/> </AdminPermission>
-          }
-        ]
-      },
-      {
-        path: ":category",
-        children: [
-          {
-            path: ":subCategory",
-            element: <ProductListPage/>
-          }
-        ]
-      },
-      {
-        path: "product/:product",
-        element: <ProductDetailsPage/>
-      },
-      {
-        path: "cart",
-        element: <MobileCartMenu/>
-      },
-      {
-        path: "checkout",
-        element: <CheckoutPage/>
-      },
-      {
-        path: "success",
-        element: <Success/>
-      },
-      {
-        path:"failed",
-        element: <Failed/>
-      },
-      {
-        path: "canceled",
-        element: <Cancel/>
-      }
-    ],
+    // children: [
+    //   {
+    //     path: "",
+    //     element: <Home />,
+    //   },
+    //   {
+    //     path: "search",
+    //     element: <SearchPage />,
+    //   },
+    //   {
+    //     path: "login",
+    //     element: <Login />,
+    //   },
+    //   {
+    //     path: "register",
+    //     element: <Register />,
+    //   },
+    //   {
+    //     path: "forgot-password",
+    //     element: <ForgotPassword/>
+    //   },
+    //   {
+    //     path: "verify-otp",
+    //     element: <VerifyOtp/>
+    //   },
+    //   {
+    //     path: "reset-password",
+    //     element: <ResetPassword/>
+    //   },
+    //   {
+    //     path: "user",
+    //     element: <UserMenuMobile />,
+    //   },
+    //   {
+    //     path: "dashboard",
+    //     element: <Dashboard />,
+    //     children: [
+    //       {
+    //         path: "profile",
+    //         element: <Profile />,
+    //       },
+    //       {
+    //         path: "my-orders",
+    //         element: <MyOrders/>,
+    //       },
+    //       {
+    //         path: "address",
+    //         element: <Address/>,
+    //       },
+    //       {
+    //         path: "category",
+    //         element: <AdminPermission ><CategoryPage/> </AdminPermission> ,
+    //       },
+    //       {
+    //         path: "sub-category",
+    //         element: <AdminPermission>  <SubCategoryPage/></AdminPermission>,
+    //       },
+    //       {
+    //         path: "admin-products",
+    //         element: <AdminPermission><AdminProducts/></AdminPermission>,
+    //       },
+    //       {
+    //         path: "upload-product",
+    //         element: <AdminPermission><UploadProduct/></AdminPermission>,
+    //       },
+    //       {
+    //         path: "admin-orders",
+    //         element: <AdminPermission><AdminOrders/> </AdminPermission>
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     path: ":category",
+    //     children: [
+    //       {
+    //         path: ":subCategory",
+    //         element: <ProductListPage/>
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     path: "product/:product",
+    //     element: <ProductDetailsPage/>
+    //   },
+    //   {
+    //     path: "cart",
+    //     element: <MobileCartMenu/>
+    //   },
+    //   {
+    //     path: "checkout",
+    //     element: <CheckoutPage/>
+    //   },
+    //   {
+    //     path: "success",
+    //     element: <Success/>
+    //   },
+    //   {
+    //     path:"failed",
+    //     element: <Failed/>
+    //   },
+    //   {
+    //     path: "canceled",
+    //     element: <Cancel/>
+    //   }
+    // ],
   },
 ]);
 

@@ -427,11 +427,9 @@ const EditProductModal = ({close, product, fetchProductData}) => {
                             <div className="grid gap-2">
                                 {Object?.keys(formData?.more_details).map((key, index) => {
                                     return (
-                                        <div className="grid gap-2">
+                                        <div key={index} className="grid gap-2">
                                             <label
-                                                className="text-xl font-medium text-neutral-700"
-                                                htmlFor="price"
-                                            >
+                                                className="text-xl font-medium text-neutral-700"htmlFor="price">
                                                 {key}:
                                             </label>
                                             <input

@@ -15,7 +15,7 @@ const UserProfileAvatarEdit = ({ close }) => {
         e.preventDefault()
     }
 
-    const handleUploadAvatar = async (e) => {
+    const handleUploadAvatar = async (e:any) => {
         const file = e.target.files[0];
         if (!file) {
             return
