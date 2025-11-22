@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaCloudUploadAlt } from 'react-icons/fa'
 import { MdDelete } from 'react-icons/md';
 import uploadImage from '../components/UploadImage';
-import ImageModel from '../components/ImageModel';
+import ImageModal from '../components/ImageModal';
 import { useSelector } from "react-redux";
 import { IoMdClose } from 'react-icons/io';
 import AddMoreField from '../components/AddMoreField';
@@ -300,7 +300,7 @@ const UploadProduct = () => {
           <button className=' w-full border px-2 py-1 rounded cursor-pointer font-medium text-white bg-green-600 hover:bg-green-700 border-green-600 hover:shadow-2xl' type="submit" >Upload Product</button>
 
       </form>
-      {viewImageURL && <ImageModel url={viewImageURL} close={() => setViewImageURL("")} />}
+      {viewImageURL && <ImageModal url={viewImageURL} close={() => setViewImageURL("")} />}
         {openAddField && <AddMoreField value={fieldName} onChange={(e)=> setFieldName(e.target.value)} submit={handleFieldSubmit} close={()=>setOpenAddField(false)} />}
     </section>
   )

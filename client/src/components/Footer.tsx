@@ -43,12 +43,12 @@ const Footer = () => {
                 <div className="my-10 flex flex-wrap gap-10 justify-between">
                     <div className="max-w-sm">
                         <h2 className="text-xl mb-5 font-bold">
-                            Deshimotors – Your Online Auto Mobile Parts.
+                            Labbaik Motors – Your Online Auto Mobile Parts.
                         </h2>
                         <p>
-                            Deshimotors is a leading e-commerce platform committed to delivering safe,
+                            Labbaik Motors is a leading e-commerce platform committed to delivering safe,
                             healthy, and organic food products across Bangladesh.
-                            Renowned for its dedication to quality, Deshimotors offers a diverse range of
+                            Renowned for its dedication to quality, Labbaik Motors offers a diverse range of
                             health-focused items, including premium mustard oil, pure ghee, organic honey,
                             dates, chia seeds, and an assortment of nuts.
                             Each product is carefully sourced and crafted to ensure maximum health benefits,
@@ -75,7 +75,7 @@ const Footer = () => {
 
                     {/* News */}
                     <div className="max-w-sm">
-                        <h2 className="text-lg mb-6 font-bold">Deshimotors Busines</h2>
+                        <h2 className="text-lg mb-6 font-bold">Labbaik Motors Busines</h2>
                         <p className="text-color">
                             Register now to get updates on promotions and coupns. Don&apos;t worry!
                             We not spam
@@ -85,7 +85,7 @@ const Footer = () => {
                             <div className="flex flex-col ml-4">
                                 <p className="text-2xl font-semibold text-muted-foreground">Hotline 24/7</p>
                                 <h3 className="text-2xl font-semibold text-muted-foreground">
-                                    <a href="tel:+8801921563031"> (+880) 1731-787755</a>
+                                    <a href="tel:+8801921563031"> (+880) 1711153876</a>
                                 </h3>
                             </div>
                         </span>
@@ -101,7 +101,7 @@ const Footer = () => {
                                 <p className="">
                                     <a href="mailto:kaziarifmaksud80@gmail.com">
                                         {" "}
-                                        deshimotors@gmail.com
+                                        labbaikmotors@gmail.com
                                     </a>
                                 </p>
                             </div>

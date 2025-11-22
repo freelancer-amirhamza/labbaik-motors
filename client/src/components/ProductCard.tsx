@@ -1,6 +1,6 @@
 import React from 'react';
 import { DisplayPriceInTaka } from '../utils/DisplayPriceInTaka';
-import { validURLConvert } from '../utils/validURLConvart';
+import { validURLConvert } from '../utils/validURLConvert';
 import { Link } from 'react-router-dom';
 import { priceWithDiscount } from '../utils/priceWithDiscount';
 import AddToCartButton from './AddToCartButton';

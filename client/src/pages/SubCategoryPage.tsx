@@ -5,11 +5,11 @@ import SummeryApi from '../common/SummeryApi';
 import NoData from '../components/NoData';
 import ConfirmBox from '../components/ConfirmBox';
 import toast from 'react-hot-toast';
-import UploadSubCategoryModel from '../components/UploadSubCategoryModel';
-import EditSubCategoryModel from '../components/EditSubCategoryModel';
+import UploadSubCategoryModel from '../components/UploadSubCategoryModal';
+import EditSubCategoryModel from '../components/EditSubCategoryModal';
 import Table from '../components/Table';
 import { createColumnHelper } from '@tanstack/react-table';
-import ImageModel from '../components/ImageModel';
+import ImageModel from '../components/ImageModal';
 import { ImPencil } from 'react-icons/im';
 import { MdDelete } from 'react-icons/md';
 

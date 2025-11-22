@@ -6,7 +6,7 @@ import SummeryApi from '../common/SummeryApi';
 import CardLoader from './CardLoader';
 import ProductCard from './ProductCard';
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
-import { validURLConvert } from '../utils/validURLConvart';
+import { validURLConvert } from '../utils/validURLConvert';
 import { useSelector } from 'react-redux';
 
 const CategoryWiseProductDisplay = ({ id, name }) => {

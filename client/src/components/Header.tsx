@@ -42,7 +42,7 @@ const Header = () => {
             <div className="container mx-auto items-center justify-between max-sm:px-3 px-2  w-full flex  ">
               {/* logo */}
               <Link to={"/"} className="flex sm:text-4xl text-3xl font-bold font-display">
-                <span className="text-secondary">Deshi</span>
+                <span className="text-secondary">Labbaik</span>
                 <span className="text-primary">Motors</span>
               </Link>
 

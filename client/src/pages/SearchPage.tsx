@@ -12,7 +12,6 @@ const SearchPage = () => {
   const [loading, setLoading]= useState(false);
   const loadingArrayCard = new Array(10).fill(null);
   const [page, setPage] = useState(1);
-  // 01926070902 khala
   const [totalPage, setTotalPage] = useState(1);
   const params = useLocation()
   const textSearch = params?.search?.slice(7)

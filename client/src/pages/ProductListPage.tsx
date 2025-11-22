@@ -6,7 +6,7 @@ import { Link, useParams } from 'react-router-dom';
 import Loader from '../components/Loading';
 import ProductCard from '../components/ProductCard';
 import { useSelector } from 'react-redux';
-import { validURLConvert } from '../utils/validURLConvart';
+import { validURLConvert } from '../utils/validURLConvert';
 
 const ProductListPage = () => {
   const [data, setData] = useState([]);

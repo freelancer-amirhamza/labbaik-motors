@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import UploadCategoryModel from '../components/UploadCategoryModel';
+import UploadCategoryModel from '../components/UploadCategoryMedal';
 import AxiosToastError from '../utils/AxiosToastError';
 import Axios from '../utils/Axios';
 import SummeryApi from '../common/SummeryApi';
 import NoData from '../components/NoData';
-import EditCategoryModel from '../components/EditCategoryModel';
+import EditCategoryModel from '../components/EditCategoryModal';
 import ConfirmBox from '../components/ConfirmBox';
 import toast from 'react-hot-toast';
 import { useSelector } from 'react-redux';

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaCloudUploadAlt } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import uploadImage from "../components/UploadImage";
-import ImageModel from "../components/ImageModel";
+import ImageModel from "../components/ImageModal";
 import { useSelector } from "react-redux";
 import { IoMdClose } from "react-icons/io";
 import AddMoreField from "../components/AddMoreField";
