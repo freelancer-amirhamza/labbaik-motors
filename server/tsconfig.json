@@ -1,0 +1,21 @@
+
+  {
+  "compilerOptions": {
+    "target": "ES2020",                    // Which JS version to compile to
+    "module": "commonjs",                  // Use CommonJS modules, since it's Node
+    "moduleResolution": "node",             // Resolve modules like Node.js
+    "outDir": "./dist",                     // Where to put compiled JS
+    "rootDir": "./src",                     // Where your TS source lives
+    "strict": true,                         // Enable all strict type-checking
+    "esModuleInterop": true,                // Support default imports from commonjs modules
+    "skipLibCheck": true,                   // Skip type checking of declaration files (faster builds)
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
+    "resolveJsonModule": true,              // Allow importing JSON files
+    "noImplicitAny": true,                   // Raise error on expressions and declarations with an implied “any” type
+    "strictNullChecks": true,                // Make null and undefined more strictly handled
+    "noUnusedLocals": true,                  // Report errors on unused locals
+    "noUnusedParameters": true               // Report errors on unused parameters
+  },
+  "include": ["src/**/*.ts"],               // Include all TS files in src
+  "exclude": ["node_modules"]                // Exclude node_modules
+}

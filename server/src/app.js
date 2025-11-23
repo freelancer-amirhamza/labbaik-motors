@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
 const morgan = require('morgan');
 require('dotenv').config();
-require('./config/database');
+require('./config/database.js');
 const userRouter = require("./routes/user-routes.js");
 const categoryRouter = require("./routes/category-routes.js")
 const uploadImageRouter = require("./routes/uploadImage-routes.js")
@@ -28,7 +28,7 @@ app.use(cookieParser())
 app.use(morgan())
 app.use(helmet({
     crossOriginResourcePolicy : false
-})); 
+}));
 
 
 
@@ -42,4 +42,4 @@ app.use("/api/address", addressRouter);
 app.use("/api/order",orderRouter);
 app.use("/api/review", reviewRouter)
 
-module.exports = app; 
+module.exports = app;

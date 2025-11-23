@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 4000;
 
 
 app.get("/", (req, res)=> {
-    res.send(`<center><h1>Welcome to the Deshi Motors server site</h1></center>`)
+    res.send(`<center><h1>Welcome to the Labbaik Motors server site</h1></center>`)
 })
 
 
