@@ -1,5 +1,4 @@
 const express = require('express');
-const app = express();
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
@@ -15,6 +14,7 @@ const cartRouter = require("./routes/cart-routes.js");
 const addressRouter = require("./routes/address-routes.js");
 const orderRouter = require("./routes/order-routes.js");
 const reviewRouter = require("./routes/review-routes.js");
+
 
 
 
