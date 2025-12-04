@@ -29,9 +29,6 @@ app.use(morgan())
 app.use(helmet({
     crossOriginResourcePolicy : false
 }));
-
-
-
 app.use("/api/user", userRouter);
 app.use("/api/category", categoryRouter);
 app.use("/api/file", uploadImageRouter);
